@@ -28,12 +28,9 @@ div{
     background: rgb(120, 231, 162) !important;
 }
 #periodic_table > div > div > div {
-    border: 3px solid black;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+    border: 1px solid black;
     box-sizing: border-box;
     text-align: center;
-    background: red;
     margin-top: -3px;
-    padding: 20% 0;
+    padding: 10% 0;
 }
