@@ -1,0 +1,39 @@
+#periodic_table {
+    width: 100%;
+    min-width: 600px;
+}
+
+#periodic_table > div {
+    margin-bottom: 2.5%;
+}
+
+#periodic_table > div > div {
+	width: 5.5%;
+	display: inline-block;
+	margin-right: -7px;
+}
+div{
+    margin: 3px;
+}
+.red > div{
+    background: rgb(233, 119, 119) !important;
+}
+.blue > div{
+    background: rgb(94, 142, 221) !important;
+}
+.yeloow > div{
+    background: rgb(244, 194, 87) !important;
+}
+.green > div{
+    background: rgb(120, 231, 162) !important;
+}
+#periodic_table > div > div > div {
+    border: 3px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    background: red;
+    margin-top: -3px;
+    padding: 20% 0;
+}
